@@ -7,4 +7,4 @@ RUN apt-get update && \
     mv nheqminer_16_04 /usr/bin/nheqminer && \
     chmod +x /usr/bin/nheqminer
 
-CMD nheqminer -l ${l} -u ${u} -cd ${cd} -t ${t}
+CMD ['/bin/bash']
